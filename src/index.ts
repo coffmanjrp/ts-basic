@@ -1,5 +1,7 @@
 import World from './world';
 import { primitiveSample, notExistsSample, anySample, unknownSample } from './basic';
+import { logMessage } from './function/basic';
+import { isUserSignedIn, isUserSignedInTwo, sumProductsPrice } from './function/parameters';
 
 const root = document.getElementById('root');
 const world = new World('Hello, World!');
@@ -10,3 +12,10 @@ primitiveSample();
 notExistsSample();
 anySample();
 unknownSample();
+
+logMessage('Hello typescript!');
+isUserSignedIn('ABC', 'JR');
+isUserSignedIn('DEF');
+isUserSignedInTwo('ABC');
+const sum = sumProductsPrice(100, 200, 300, 400, 500);
+console.log('functionParameters 05', sum);
