@@ -1,23 +1,23 @@
 export default function notExistsSample() {
   let name = null;
-  console.log(typeof name, name);
+  console.log('notExistsSample 01', typeof name, name);
 
   name = 'JR';
 
   if (name) {
-    console.log(name);
+    console.log('notExistsSample 02', name);
   } else {
-    console.log('No name');
+    console.log('notExistsSample 02', 'No name');
   }
 
   let age = undefined;
-  console.log(typeof age, age);
+  console.log('notExistsSample 03', typeof age, age);
 
   age = 30;
 
   if (age) {
-    console.log(`${age} years old`);
+    console.log('notExistsSample 04', `${age} years old`);
   } else {
-    console.log('Age is secret');
+    console.log('notExistsSample 04', 'Age is secret');
   }
 }

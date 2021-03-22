@@ -1,13 +1,13 @@
 export default function primitiveSample() {
   const name = 'JR';
-  console.log(typeof name, name);
+  console.log('primitiveSample 01', typeof name, name);
 
   const age = 30;
-  console.log(typeof age, age);
+  console.log('primitiveSample 02', typeof age, age);
 
   const isSingle = true;
-  console.log(typeof isSingle, isSingle);
+  console.log('primitiveSample 03', typeof isSingle, isSingle);
 
   const isOver20: boolean = age >= 20;
-  console.log(typeof isOver20, isOver20);
+  console.log('primitiveSample 04', typeof isOver20, isOver20);
 }
