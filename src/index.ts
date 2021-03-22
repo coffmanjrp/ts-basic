@@ -5,6 +5,7 @@ import { isUserSignedIn, isUserSignedInTwo, sumProductsPrice } from './function/
 import { objectSample, typeAliasSample } from './object';
 import { arraySample, tupleSample } from './array';
 import { genericsBasicSample, genericsAdvancedSample } from './generics';
+import interfaceSample from './interface/interface';
 
 const root = document.getElementById('root');
 const world = new World('Hello, World!');
@@ -31,3 +32,5 @@ tupleSample();
 
 genericsBasicSample();
 genericsAdvancedSample();
+
+interfaceSample();
