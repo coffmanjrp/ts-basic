@@ -4,6 +4,7 @@ import { logMessage } from './function/basic';
 import { isUserSignedIn, isUserSignedInTwo, sumProductsPrice } from './function/parameters';
 import { objectSample, typeAliasSample } from './object';
 import { arraySample, tupleSample } from './array';
+import { genericsBasicSample, genericsAdvancedSample } from './generics';
 
 const root = document.getElementById('root');
 const world = new World('Hello, World!');
@@ -27,3 +28,6 @@ typeAliasSample();
 
 arraySample();
 tupleSample();
+
+genericsBasicSample();
+genericsAdvancedSample();
