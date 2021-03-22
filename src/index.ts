@@ -3,6 +3,7 @@ import { primitiveSample, notExistsSample, anySample, unknownSample } from './ba
 import { logMessage } from './function/basic';
 import { isUserSignedIn, isUserSignedInTwo, sumProductsPrice } from './function/parameters';
 import { objectSample, typeAliasSample } from './object';
+import { arraySample, tupleSample } from './array';
 
 const root = document.getElementById('root');
 const world = new World('Hello, World!');
@@ -23,3 +24,6 @@ console.log('functionParameters 05', sum);
 
 objectSample();
 typeAliasSample();
+
+arraySample();
+tupleSample();
