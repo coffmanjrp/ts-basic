@@ -6,6 +6,7 @@ import { objectSample, typeAliasSample } from './object';
 import { arraySample, tupleSample } from './array';
 import { genericsBasicSample, genericsAdvancedSample } from './generics';
 import interfaceSample from './interface/interface';
+import { asyncAwaitSample, callbackSample, promiseSample } from './asynchronous';
 
 const root = document.getElementById('root');
 const world = new World('Hello, World!');
@@ -34,3 +35,7 @@ genericsBasicSample();
 genericsAdvancedSample();
 
 interfaceSample();
+
+callbackSample();
+promiseSample();
+asyncAwaitSample();
